@@ -692,7 +692,7 @@ button {
     height: 40px;
     cursor: pointer;
 }
-input::placeholder {
+.form-input::placeholder {
     color:#FFF;
     padding: 8px;
 }
