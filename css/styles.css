@@ -182,8 +182,7 @@ body {
 
 .hero-container { 
     margin: 0 auto;
-   position: relative;
-    
+    position: relative;
 }
 
 .hero-title {
@@ -523,7 +522,6 @@ button {
 .customers {
     padding-top: 120px;
     padding-bottom: 120px; 
-    
 }
 
 .customers-box {
@@ -796,4 +794,71 @@ button {
 
 .no-scroll {
     overflow: hidden;
+}
+
+/*----Order form----*/
+
+.order-form-container {
+    display: block;
+    padding: 72px 24px 24px;   
+}
+
+.order-form-text {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.order-form {
+    display: flex;
+    color: var(--navyblue, #2E2F42);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 16px;
+}
+
+.order-form-box {
+    width: 360px;
+    height: 58px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.label-box {
+
+    position: relative;
+    width: 34;
+    height: 14px;
+    color: var(--lightslate, #8E8F99);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17px;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+   
+}
+
+.input-box-icon {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+}
+.icon-input {
+    position: absolute;
+    margin: 11px 326px 11px 11px;
+
+
 }
