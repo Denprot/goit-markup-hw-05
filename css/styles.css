@@ -687,12 +687,14 @@ button {
     line-height: 2px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    line-height: 1.5;
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
     background: transparent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 264px;
     height: 40px;
+    padding-left: 16px;
     cursor: pointer;
 }
 .form-input::placeholder {
