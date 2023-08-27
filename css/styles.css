@@ -664,8 +664,11 @@ button {
 .footer-icons-box {
 }
 
-.footer-subscribe {
-    display: block;
+.footer-subscribe {  
+}
+
+.footer-form {
+    display: flex;
 }
 
 .footer-form {
@@ -673,6 +676,7 @@ button {
     gap: 24px;
 }
 .form-label {
+    
 }
 
 .form-input {
