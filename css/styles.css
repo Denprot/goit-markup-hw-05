@@ -814,6 +814,7 @@ button {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0 auto; 
     width: 100%;
@@ -822,7 +823,7 @@ button {
     margin-bottom: 16px; 
 }
 
-.order-form-list {
+.order-form {
     width: 360px;
     height: 336px;
     margin: 0 auto;
@@ -836,7 +837,7 @@ button {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.16px;
+    line-height: 1.17px;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
 }
