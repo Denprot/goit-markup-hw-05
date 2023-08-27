@@ -462,10 +462,16 @@
         </div>   
      </footer>        
         <div class="backdrop is-hidden" data-modal>
-          <div class="modal-window">  
-            
-              
-                <strong class="form-text">Leave your contacts and we will call you back</strong>
+          <div class="modal-window"> 
+            <button class="cross-buttom" type="button" data-modal-close>
+              <svg class="cross" 
+               width="8"
+               height="8">
+               <use href="./images/icons.svg#icon-cross"></use>
+               </svg>  
+             </button>   
+
+        <strong class="form-text">Leave your contacts and we will call you back</strong>
              
               <form class="order-form-list">
                        <label class="label-box" for="name">Name</label>
@@ -519,13 +525,7 @@
                   <button class="btm-form hero-btn" type="submit">Send</button>
               </form>
            
-             <button class="cross-buttom" type="button" data-modal-close>
-             <svg class="cross" 
-              width="8"
-              height="8">
-              <use href="./images/icons.svg#icon-cross"></use>
-              </svg>  
-            </button>    
+            
           </div>
         </div>
     <script src="./js/modal.js"></script>
