@@ -682,9 +682,10 @@ button {
     font-weight: 400;
     line-height: 2px;
     letter-spacing: 0.04em;
+    color: #FFFFFF;
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
-    background: var(--navyblue, #2E2F42);
+    background: transparent;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 264px;
     height: 40px;
@@ -745,7 +746,7 @@ button {
   }
 
 .modal-window {
-    position: absolute;
+    position: relative;
     background-position: center;
     top: 50%;
     left: 50%;
@@ -800,65 +801,92 @@ button {
 
 .order-form-container {
     display: block;
-    padding: 72px 24px 24px;   
-}
-
-.order-form-text {
-    display: flex;
-    width: 100%;
-    height: 24px;
-    margin: 0 auto;
+    padding: 72px 24px;   
 }
 
 .order-form {
     display: flex;
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+    margin-bottom: 16px;  
+}
+
+.form-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     color: var(--navyblue, #2E2F42);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5px;
     letter-spacing: 0.02em;
-    text-align: center;
-    align-items: center;
-    justify-content: center; 
-    margin-bottom: 16px;
+    margin: 0 auto; 
 }
 
-.order-form-box {
+.order-form-list {
     width: 360px;
-    height: 58px;
+    height: 336px;
     margin: 0 auto;
-    position: relative;
+    margin-bottom: 8px;
 }
-
-
 
 .label-box {
-
-    position: relative;
-    width: 34;
+    width: 34px;
     height: 14px;
     color: var(--lightslate, #8E8F99);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17px;
+    line-height: 1.16px;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
-   
+}
+
+.label-input {
+    display: flex;
+    position: relative;
 }
 
 .input-box-icon {
-    position: absolute;
-    margin: 0 auto;
+    display: flex;
     width: 100%;
     height: 40px;
+    margin-bottom: 8px;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
+
+.input-box-icon:is(:hover, :focus) {
+    border-radius: 4px;
+    border: 1px solid var(--iris, #4D5AE5);
+}
+
 .icon-input {
+    display: flex;
     position: absolute;
     margin: 11px 326px 11px 11px;
+}
 
+.form-comment {
+    display: flex;
+}
 
+.form-comment-text {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+    resize: none;
+    outline: transparent;
+    margin-bottom: 16px;
+}
+
+.form-agreement-span {
+    width: 100%;
+    height: 16px;
+    margin-bottom: 24px; 
+    text-align: center;
+    justify-content: center;
 }
