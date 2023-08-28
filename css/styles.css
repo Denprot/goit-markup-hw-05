@@ -823,21 +823,19 @@ button {
     margin-bottom: 16px; 
 }
 
-.order-form {
-    width: 360px;
-    height: 336px;
-    margin: 0 auto;
+.order-form-list {
     margin-bottom: 8px;
 }
 
 .label-box {
+    display: block;
     width: 34px;
     height: 14px;
     color: var(--lightslate, #8E8F99);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
 }
