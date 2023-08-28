@@ -877,7 +877,7 @@ button {
      fill: #4D5AE5;
 }
 
-.Comment-box {
+.comment-box {
     margin-bottom: 16px;
 }
    
@@ -935,11 +935,13 @@ button {
     align-items: center;
     justify-content: center;
     fill: transparent; 
-   
-
 }
 
-.checkbox-agreement:checked+.span-privacy {
+.icon-privacy {
+    padding-left: 0%;
+}
+
+.checkbox-agreement:checked+.form-agreement-checkbox>.span-privacy {
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD;
